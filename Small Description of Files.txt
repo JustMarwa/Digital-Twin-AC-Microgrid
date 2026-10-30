@@ -1,0 +1,18 @@
+'Rev_0_UCT_Microgrid_Microgrid.slx' this the Revision 0 that the report talks about in 3.1
+
+'modbus_meter_dashboard_Delay_Resolution.py' this is the Python Application talked about in 3.2 DAQ, it owns a single Modbus TCP client connected to the existing HMI gateway.
+
+
+'DAQ_with_EMS_Dashboard_v01.slx' Main and core Digital Twin Prototype Simulink file. It contains every Digital Twin subsystem except the Offline Models. That is, it contains (1 DAQ pipeline, 2 the PLC contactor Bidirectional DT switching capabilities, 3 ALL Visualisation dashboard components including 3.5.1 all virtual meter  viewing capabilities,  3.5.2 Interbus Voltage angle viewing capability, 3.5.3 System Loading Viewing Capability)
+
+
+'Dvp0.dvp' original UCT's rig PLC WPLSoft program being talked about in section 3.4.1
+
+
+'Case_IS_1.slx' Simulink model for case IS-1 addressed in 4.2.1 of the report
+
+'Case_IS_2_Model.slx' Simulink model for case IS-2 addressed in 4.2.2 of the report
+
+'Case_GC_1_Model.slx' Simulink model for case GC-1 addressed in 4.3.1 of the report
+
+'Implemeted PLC Based Contactor Switching on DT Dashboard.png' the PLC contactor Bidirectional DT switching capabilities on MATLAB, discussed in 3.4 and in 4.4
